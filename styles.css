@@ -1,0 +1,123 @@
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+}  
+
+
+body {
+    background-size: cover;
+    background-color:beige;
+}
+table{
+    border:2px solid black;
+    margin:0 auto;
+    width:800px;
+    
+}
+th{
+    background-color: rgb(21, 196, 155);
+}
+
+td,th{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    margin: 0px;
+    padding:2px 5px 2px 5px;
+    
+    
+}
+
+td{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;;
+    
+
+}
+
+.tablehead {
+    text-align: center;
+    color:blueviolet;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.tag{
+    text-align: center;
+    background-color: khaki;
+    font-weight: bold;
+}
+footer{
+    background: #111;
+
+    color: #fff;
+}
+.footer-content{
+
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    
+   
+}
+
+.footer-content p{
+
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+    text-align: center;
+}
+
+.footer-menu{
+   
+    background-color: #333;
+  }
+  
+  .footer-menu ul{
+    display: flex;
+  }
+  
+  .footer-menu ul li{
+  padding-right: 10px;
+  display: block;
+  }
+  
+  .footer-menu ul li a{
+    color: #cfd2d6;
+    text-decoration: none;
+  }
+  
+  .footer-menu ul li a:hover{
+    color: #27bcda;
+  }
